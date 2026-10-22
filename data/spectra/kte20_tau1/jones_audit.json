@@ -1,0 +1,29 @@
+{
+  "tau": 1.0,
+  "ncells": 2048,
+  "nangle": 96,
+  "max_order": 103,
+  "remaining_probability": 7.58017259956106e-21,
+  "escape_plus_tail": 1.0,
+  "kTe_keV": 20.0,
+  "coarse_angular": {
+    "tau": 1.0,
+    "ncells": 1024,
+    "nangle": 96,
+    "max_order": 103,
+    "remaining_probability": 7.58027764321478e-21,
+    "escape_plus_tail": 1.0
+  },
+  "kernel_audit": {
+    "column_normalization_max_absolute_error": 6.661338147750939e-16,
+    "first_moment_max_relative_error": 1.3322676295501878e-15,
+    "quadrature_cdf_max_absolute_change": 0.0014551531141880902,
+    "quadrature_rate_max_relative_change": 1.2656542480726785e-14,
+    "mj_normalization_error": 4.440892098500626e-16,
+    "probe_columns": 11
+  },
+  "I_grid_change": 3.7411765039241374e-06,
+  "Pi_grid_change": 2.4565052161862333e-07,
+  "probability_identity_error": 6.217248937900877e-15,
+  "sha256": "8bc9ad5fe07074740df7d4bf2e37ca6ed468c6f78fe5ed46eeb42ce89d55eff5"
+}

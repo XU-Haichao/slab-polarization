@@ -1,0 +1,961 @@
+{
+  "low": {
+    "reference_chi2": 1569.8798528288758,
+    "dof": 1572,
+    "delta_chi2": 1.0,
+    "validated_two_sided": 23,
+    "boundary_limited": 1,
+    "rows": [
+      {
+        "key": "g1-p8",
+        "parameter": "slabseed.kTe",
+        "best": 2.6447083841260195,
+        "endpoints": {
+          "lower": {
+            "value": 2.595095250233827,
+            "delta_chi2": 0.9984104510479028,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:f2294b24"
+          },
+          "upper": {
+            "value": 2.7024616621680737,
+            "delta_chi2": 1.0061721334775484,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:ddf66c01"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p9",
+        "parameter": "slabseed.tau",
+        "best": 13.09683119758807,
+        "endpoints": {
+          "lower": {
+            "value": 12.115980026972565,
+            "delta_chi2": 0.9900304181944648,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-4.json:4dfbd171"
+          },
+          "upper": {
+            "value": 14.233849557265172,
+            "delta_chi2": 1.0064918145894808,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:07ed9987"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p15",
+        "parameter": "slabseed.PA",
+        "best": 78.87390779256317,
+        "endpoints": {
+          "lower": {
+            "value": 73.01166421169474,
+            "delta_chi2": 0.9925058753194662,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-1.json:70164eaf"
+          },
+          "upper": {
+            "value": 84.80985605923125,
+            "delta_chi2": 1.007403087821558,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:b1d2d821"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p2",
+        "parameter": "TBabs.nH",
+        "best": 10.045593037297461,
+        "endpoints": {
+          "lower": {
+            "value": 9.853834141508761,
+            "delta_chi2": 1.001085543791305,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:403ad05a"
+          },
+          "upper": {
+            "value": 10.22778441267543,
+            "delta_chi2": 0.9918067037667697,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:4fb82249"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p4",
+        "parameter": "edge.MaxTau",
+        "best": 0.3367280720252827,
+        "endpoints": {
+          "lower": {
+            "value": 0.29171490923208604,
+            "delta_chi2": 0.9906218795576933,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:2d1b9a58"
+          },
+          "upper": {
+            "value": 0.3814967819443909,
+            "delta_chi2": 0.9990036671501912,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-3.json:6ad372c6"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p6",
+        "parameter": "CLOUDY.logNH",
+        "best": 22.57271173410768,
+        "endpoints": {
+          "lower": {
+            "value": 22.4881912194646,
+            "delta_chi2": 0.9994402798249666,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:302463f7"
+          },
+          "upper": {
+            "value": 22.7011457857854,
+            "delta_chi2": 1.0005732957974942,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:9c23f76c"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p18",
+        "parameter": "bbodyrad.kT",
+        "best": 1.2139706155403462,
+        "endpoints": {
+          "lower": {
+            "value": 1.2007548236023233,
+            "delta_chi2": 0.9835542778009767,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-4.json:7296cfeb"
+          },
+          "upper": {
+            "value": 1.2288436368211126,
+            "delta_chi2": 1.001442567656568,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:5fc88a56"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p19",
+        "parameter": "bbodyrad.norm",
+        "best": 32.01390421671699,
+        "endpoints": {
+          "lower": {
+            "value": 27.493422332405373,
+            "delta_chi2": 1.001199769443474,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:fb7e2552"
+          },
+          "upper": {
+            "value": 37.35630808970173,
+            "delta_chi2": 0.9993683223269727,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-3.json:1fd5957d"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g2-p1",
+        "parameter": "constant.DU_or_instrument_g2",
+        "best": 0.9874374994884685,
+        "endpoints": {
+          "lower": {
+            "value": 0.9856128799654486,
+            "delta_chi2": 0.9966623702309789,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:98f63bfc"
+          },
+          "upper": {
+            "value": 0.9892680055719414,
+            "delta_chi2": 0.9988842794048196,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-3.json:d8d5c1f5"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g3-p1",
+        "parameter": "constant.DU_or_instrument_g3",
+        "best": 0.8767139676946384,
+        "endpoints": {
+          "lower": {
+            "value": 0.8730274027124207,
+            "delta_chi2": 1.0004150106215093,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:b535b88a"
+          },
+          "upper": {
+            "value": 0.8803461570015564,
+            "delta_chi2": 0.9988051558648294,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:310204b0"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g4-p1",
+        "parameter": "constant.DU_or_instrument_g4",
+        "best": 0.8723174960427705,
+        "endpoints": {
+          "lower": {
+            "value": 0.8682571975807477,
+            "delta_chi2": 1.000112730445153,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:066cc0bb"
+          },
+          "upper": {
+            "value": 0.8763466666473824,
+            "delta_chi2": 1.000276268297057,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:efc99aa5"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g5-p1",
+        "parameter": "constant.DU_or_instrument_g5",
+        "best": 0.882404800036125,
+        "endpoints": {
+          "lower": {
+            "value": 0.8782780338260177,
+            "delta_chi2": 0.9999710313925334,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:a1e948e9"
+          },
+          "upper": {
+            "value": 0.8865405821351348,
+            "delta_chi2": 0.9986696003875295,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:bf6f27ab"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g6-p1",
+        "parameter": "constant.DU_or_instrument_g6",
+        "best": 0.8677216151001099,
+        "endpoints": {
+          "lower": {
+            "value": 0.863624730896401,
+            "delta_chi2": 1.0002546612338392,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:45e8f92b"
+          },
+          "upper": {
+            "value": 0.8717862261902055,
+            "delta_chi2": 0.9995861096174394,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:6eca20bb"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g4-gain-slope",
+        "parameter": "DU1.gain.slope",
+        "best": 1.0052740782063119,
+        "endpoints": {
+          "lower": {
+            "value": 1.0022018521769758,
+            "delta_chi2": 0.9980969958651258,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:c3db064a"
+          },
+          "upper": {
+            "value": 1.0083974211126776,
+            "delta_chi2": 1.0021373300789946,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:2f64a9b3"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g4-gain-offset",
+        "parameter": "DU1.gain.offset",
+        "best": 0.03218198097139248,
+        "endpoints": {
+          "lower": {
+            "value": 0.021031544197561453,
+            "delta_chi2": 1.0000231706058003,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:9b80ed41"
+          },
+          "upper": {
+            "value": 0.04310666586392962,
+            "delta_chi2": 0.9998244746577711,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-3.json:34b28d22"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g5-gain-slope",
+        "parameter": "DU2.gain.slope",
+        "best": 0.9787024426491248,
+        "endpoints": {
+          "lower": {
+            "value": 0.975612702405529,
+            "delta_chi2": 0.9977495521145556,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:e56587bc"
+          },
+          "upper": {
+            "value": 0.9819008484877207,
+            "delta_chi2": 0.9948612415664684,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-3.json:9be41d8e"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g5-gain-offset",
+        "parameter": "DU2.gain.offset",
+        "best": 0.09485102999087017,
+        "endpoints": {
+          "lower": {
+            "value": 0.08304591616514526,
+            "delta_chi2": 0.9990119941003286,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:404636c9"
+          },
+          "upper": {
+            "value": 0.10641160502440498,
+            "delta_chi2": 0.9986934714695508,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:4074cae8"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g6-gain-slope",
+        "parameter": "DU3.gain.slope",
+        "best": 0.9702218324808557,
+        "endpoints": {
+          "lower": {
+            "value": 0.9670787981004153,
+            "delta_chi2": 1.00137371307801,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:682bcbc6"
+          },
+          "upper": {
+            "value": 0.9732857671085885,
+            "delta_chi2": 0.9955354507260381,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:4ba6707b"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g6-gain-offset",
+        "parameter": "DU3.gain.offset",
+        "best": 0.09359058527238956,
+        "endpoints": {
+          "lower": {
+            "value": 0.0820792649009824,
+            "delta_chi2": 1.007986955786464,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:27bfdd34"
+          },
+          "upper": {
+            "value": 0.10548735233200467,
+            "delta_chi2": 0.9988074263533235,
+            "state": "crossing_verified",
+            "checkpoint": "source:endpoint-iteration-2.json:6a9d69e3"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p5",
+        "parameter": "CLOUDY.logxi",
+        "best": 3.8262224598189687,
+        "endpoints": {
+          "lower": {
+            "value": 3.8,
+            "delta_chi2": 0.036931426885303154,
+            "state": "boundary_truncated",
+            "checkpoint": "source:best-point.json:986fdfa3"
+          },
+          "upper": {
+            "value": 3.926045331892463,
+            "delta_chi2": 1.0010204243897078,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:c0c04d4f"
+          }
+        },
+        "boundary_limited": true
+      },
+      {
+        "key": "g1-p29",
+        "parameter": "relxillNS.logxi",
+        "best": 2.637293059944559,
+        "endpoints": {
+          "lower": {
+            "value": 2.378042079254018,
+            "delta_chi2": 1.012325680639833,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:18690ba4"
+          },
+          "upper": {
+            "value": 2.8467689865911607,
+            "delta_chi2": 1.0000112701982289,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:473b70aa"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p24",
+        "parameter": "relxillNS.Incl",
+        "best": 81.56716367598082,
+        "endpoints": {
+          "lower": {
+            "value": 75.9286584649774,
+            "delta_chi2": 1.0054496472794199,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:734a3d78"
+          },
+          "upper": {
+            "value": 84.35390951065617,
+            "delta_chi2": 1.0106430775947501,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:fa001a74"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p33",
+        "parameter": "relxillNS.norm",
+        "best": 0.002830832577688343,
+        "endpoints": {
+          "lower": {
+            "value": 0.001636234940547634,
+            "delta_chi2": 0.9990165230215098,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:71ea29e4"
+          },
+          "upper": {
+            "value": 0.004409967757759565,
+            "delta_chi2": 0.9917180958705103,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:5c483eab"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p17",
+        "parameter": "slabseed.norm",
+        "best": 218.5410633211278,
+        "endpoints": {
+          "lower": {
+            "value": 118.7813177105665,
+            "delta_chi2": 0.99546490179182,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:302e2e5b"
+          },
+          "upper": {
+            "value": 339.75401749468136,
+            "delta_chi2": 1.00305234719076,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:a2e786d2"
+          }
+        },
+        "boundary_limited": false
+      }
+    ]
+  },
+  "high": {
+    "reference_chi2": 1567.5838427308997,
+    "dof": 1573,
+    "delta_chi2": 1.0,
+    "validated_two_sided": 20,
+    "boundary_limited": 3,
+    "rows": [
+      {
+        "key": "g1-p15",
+        "parameter": "slabseed.PA",
+        "best": 80.05746816739786,
+        "endpoints": {
+          "lower": {
+            "value": 73.84581740113462,
+            "delta_chi2": 1.0020324239458205,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:d7f45502"
+          },
+          "upper": {
+            "value": 86.27457911452196,
+            "delta_chi2": 1.0045988104400294,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:a61e5172"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p2",
+        "parameter": "TBabs.nH",
+        "best": 9.417197882009063,
+        "endpoints": {
+          "lower": {
+            "value": 9.224806752969945,
+            "delta_chi2": 1.017828924921787,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:b411a52d"
+          },
+          "upper": {
+            "value": 9.635036068097913,
+            "delta_chi2": 1.0211732767904778,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:dca9de57"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g2-p1",
+        "parameter": "constant.DU_or_instrument_g2",
+        "best": 0.987455909698564,
+        "endpoints": {
+          "lower": {
+            "value": 0.9856313713204142,
+            "delta_chi2": 0.998824315381853,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:281266a2"
+          },
+          "upper": {
+            "value": 0.9892874606214451,
+            "delta_chi2": 1.0028773830883893,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:bea49198"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g3-p1",
+        "parameter": "constant.DU_or_instrument_g3",
+        "best": 0.8762611194088815,
+        "endpoints": {
+          "lower": {
+            "value": 0.872656913540643,
+            "delta_chi2": 1.002594216445459,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:ab0215a1"
+          },
+          "upper": {
+            "value": 0.8798351711416278,
+            "delta_chi2": 0.9922146052008429,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:dd477a2c"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g4-p1",
+        "parameter": "constant.DU_or_instrument_g4",
+        "best": 0.8719523651381503,
+        "endpoints": {
+          "lower": {
+            "value": 0.8680248489417166,
+            "delta_chi2": 0.9928164750385804,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:8d9e7433"
+          },
+          "upper": {
+            "value": 0.8758702767117753,
+            "delta_chi2": 0.9846780216009847,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:d39412ed"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g5-p1",
+        "parameter": "constant.DU_or_instrument_g5",
+        "best": 0.8820839347298518,
+        "endpoints": {
+          "lower": {
+            "value": 0.8780369977148399,
+            "delta_chi2": 0.99276233303749,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:1ed0fb31"
+          },
+          "upper": {
+            "value": 0.8860549735029701,
+            "delta_chi2": 0.9867393523381907,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:1bc57376"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g6-p1",
+        "parameter": "constant.DU_or_instrument_g6",
+        "best": 0.8673527006846781,
+        "endpoints": {
+          "lower": {
+            "value": 0.8633877126867145,
+            "delta_chi2": 0.9929005335179681,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:c7e153b2"
+          },
+          "upper": {
+            "value": 0.8713014730475198,
+            "delta_chi2": 0.9848778283237607,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:cd158e52"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g4-gain-slope",
+        "parameter": "DU1.gain.slope",
+        "best": 1.0055787864820616,
+        "endpoints": {
+          "lower": {
+            "value": 1.0026307664784908,
+            "delta_chi2": 0.9855191583433225,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:845600b3"
+          },
+          "upper": {
+            "value": 1.008600559388094,
+            "delta_chi2": 1.0011145362200295,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:c038ed9b"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g4-gain-offset",
+        "parameter": "DU1.gain.offset",
+        "best": 0.03109708179346601,
+        "endpoints": {
+          "lower": {
+            "value": 0.020063744563640486,
+            "delta_chi2": 1.00811725730955,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:e0da7d72"
+          },
+          "upper": {
+            "value": 0.04171431212369667,
+            "delta_chi2": 0.9923987168667736,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:f33a51fe"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g5-gain-slope",
+        "parameter": "DU2.gain.slope",
+        "best": 0.9791303187919245,
+        "endpoints": {
+          "lower": {
+            "value": 0.9760342848530021,
+            "delta_chi2": 0.9829605658560467,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:c51bff83"
+          },
+          "upper": {
+            "value": 0.9821091743923764,
+            "delta_chi2": 0.9941522532067211,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:daeaebb3"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g5-gain-offset",
+        "parameter": "DU2.gain.offset",
+        "best": 0.09339337877787937,
+        "endpoints": {
+          "lower": {
+            "value": 0.08200635360874703,
+            "delta_chi2": 1.0017897427887874,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:d1d524e2"
+          },
+          "upper": {
+            "value": 0.10502277335768682,
+            "delta_chi2": 0.9919141716063677,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:23b645a7"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g6-gain-slope",
+        "parameter": "DU3.gain.slope",
+        "best": 0.9705358128833032,
+        "endpoints": {
+          "lower": {
+            "value": 0.9674739928178392,
+            "delta_chi2": 0.9881544407055571,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:a43cfacd"
+          },
+          "upper": {
+            "value": 0.9734966184667838,
+            "delta_chi2": 1.0020989806439502,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:8581c2f9"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g6-gain-offset",
+        "parameter": "DU3.gain.offset",
+        "best": 0.09239539488086458,
+        "endpoints": {
+          "lower": {
+            "value": 0.08105623426905009,
+            "delta_chi2": 1.0033688069240725,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:e9ff39c4"
+          },
+          "upper": {
+            "value": 0.10416549436949615,
+            "delta_chi2": 0.9954871689994889,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:aed34a28"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p8",
+        "parameter": "slabseed.kTe",
+        "best": 2.6538756663400545,
+        "endpoints": {
+          "lower": {
+            "value": 2.601331607512143,
+            "delta_chi2": 0.9977886815604506,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:52943446"
+          },
+          "upper": {
+            "value": 2.712631465746864,
+            "delta_chi2": 1.0139605114898131,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:c0eb85cb"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p5",
+        "parameter": "CLOUDY.logxi",
+        "best": 3.8904126854593204,
+        "endpoints": {
+          "lower": {
+            "value": 3.8,
+            "delta_chi2": 0.4602677627037792,
+            "state": "boundary_truncated",
+            "checkpoint": "source:best-point.json:5bb1bf39"
+          },
+          "upper": {
+            "value": 3.986975410557922,
+            "delta_chi2": 0.9977486356663121,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:f04a62b2"
+          }
+        },
+        "boundary_limited": true
+      },
+      {
+        "key": "g1-p22",
+        "parameter": "relxillNS.Incl",
+        "best": 87.0,
+        "endpoints": {
+          "lower": {
+            "value": 85.88683117070185,
+            "delta_chi2": 1.0016024558076424,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:ab25398d"
+          },
+          "upper": {
+            "value": 87.0,
+            "delta_chi2": -0.00017176166443277907,
+            "state": "boundary_truncated",
+            "checkpoint": "source:best-point.json:3c949cb0"
+          }
+        },
+        "boundary_limited": true
+      },
+      {
+        "key": "g1-p9",
+        "parameter": "slabseed.tau",
+        "best": 17.38740976479632,
+        "endpoints": {
+          "lower": {
+            "value": 14.923180760311258,
+            "delta_chi2": 0.9859391259512904,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:b9842869"
+          },
+          "upper": {
+            "value": 20.0,
+            "delta_chi2": 0.5098665072277981,
+            "state": "boundary_truncated",
+            "checkpoint": "source:best-point.json:7afaad3c"
+          }
+        },
+        "boundary_limited": true
+      },
+      {
+        "key": "g1-p4",
+        "parameter": "edge.MaxTau",
+        "best": 0.2971561440343681,
+        "endpoints": {
+          "lower": {
+            "value": 0.2568309158787475,
+            "delta_chi2": 0.9965890133294124,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:03f1831b"
+          },
+          "upper": {
+            "value": 0.3377309836661351,
+            "delta_chi2": 1.0173140353301733,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:a15bfed4"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p31",
+        "parameter": "relxillNS.norm",
+        "best": 0.021399625386555855,
+        "endpoints": {
+          "lower": {
+            "value": 0.015416532564994097,
+            "delta_chi2": 1.003601710249768,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:b96162b4"
+          },
+          "upper": {
+            "value": 0.022346373672384505,
+            "delta_chi2": 0.992497468530928,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:cf5cdad4"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p17",
+        "parameter": "slabseed.norm",
+        "best": 357.649130966015,
+        "endpoints": {
+          "lower": {
+            "value": 247.6560689308582,
+            "delta_chi2": 0.9919013716291829,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:5119c68c"
+          },
+          "upper": {
+            "value": 453.0113181942454,
+            "delta_chi2": 0.9995075282542984,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:4c763c77"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p26",
+        "parameter": "relxillNS.kTbb",
+        "best": 1.3258637499244346,
+        "endpoints": {
+          "lower": {
+            "value": 1.3140683676882463,
+            "delta_chi2": 1.005865476665349,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:373defa7"
+          },
+          "upper": {
+            "value": 1.3373056519669684,
+            "delta_chi2": 0.9999244954899495,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:fab6cef2"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p27",
+        "parameter": "relxillNS.logxi",
+        "best": 3.8967473057726436,
+        "endpoints": {
+          "lower": {
+            "value": 3.839141684950836,
+            "delta_chi2": 0.9971381940465562,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:57637007"
+          },
+          "upper": {
+            "value": 3.9491256720550685,
+            "delta_chi2": 0.9961006453138452,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:5ee95a27"
+          }
+        },
+        "boundary_limited": false
+      },
+      {
+        "key": "g1-p6",
+        "parameter": "CLOUDY.logNH",
+        "best": 22.43397663373204,
+        "endpoints": {
+          "lower": {
+            "value": 22.27716732187885,
+            "delta_chi2": 0.9992848344161303,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:d9c5c8d9"
+          },
+          "upper": {
+            "value": 22.57432988387676,
+            "delta_chi2": 1.0158697488136568,
+            "state": "crossing_verified",
+            "checkpoint": "source:best-point.json:3fa64a50"
+          }
+        },
+        "boundary_limited": false
+      }
+    ]
+  },
+  "audited_beijing": "2026-10-14T23:18:56.703434+08:00"
+}

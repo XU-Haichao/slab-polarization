@@ -1,0 +1,42 @@
+{
+  "parameters": {
+    "branch": "low",
+    "kTe_keV": 2.6447083841260195,
+    "tau": 13.09683119758807,
+    "inclination_deg": 81.56716367598082,
+    "PA_deg": 78.87390779256317,
+    "corona_norm": 218.5410633211278
+  },
+  "angular_audits": [
+    {
+      "tau": 13.09683119758807,
+      "ncells": 8192,
+      "nangle": 128,
+      "max_order": 2945,
+      "remaining_probability": 9.864406399660531e-21,
+      "escape_plus_tail_broad_windows_only": 1.0000000000000007
+    },
+    {
+      "tau": 13.09683119758807,
+      "ncells": 16384,
+      "nangle": 128,
+      "max_order": 2945,
+      "remaining_probability": 9.864455393258935e-21,
+      "escape_plus_tail_broad_windows_only": 1.0000000000000013
+    }
+  ],
+  "kernel": {
+    "column_normalization_max_absolute_error": 6.661338147750939e-16,
+    "first_moment_max_relative_error": 4.440892098500626e-16,
+    "quadrature_cdf_max_absolute_change": 0.0008128345722673291,
+    "quadrature_rate_max_relative_change": 5.995204332975845e-15,
+    "mj_normalization_error": 1.1102230246251565e-16,
+    "probe_columns": 11
+  },
+  "blocked_kernel_validation_max_error": 2.1039899250755817e-15,
+  "probability_identity_max_error": 5.10702591327572e-15,
+  "I_spatial_max_relative_change": 4.079576332971513e-06,
+  "Pi_spatial_max_absolute_change": 8.625238128306956e-07,
+  "escaped_photons_full_energy_grid_broad_windows_only": 0.9999806325434224,
+  "energy_grid_refinement_certified": false
+}

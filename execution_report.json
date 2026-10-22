@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "code_cells": 37,
+  "figures": 34,
+  "cache_population_enabled": false,
+  "numpy": "2.4.1",
+  "python": "3.14.2",
+  "notebook_sha256": "ef324db3aa3c04fcfc7f685e920d9440cbb82bf55777aad3fe134997a7b2a49d"
+}

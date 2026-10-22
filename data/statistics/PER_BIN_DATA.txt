@@ -1,0 +1,65 @@
+81-CASE PARAMETER SCAN: PER-ENERGY-BIN COMPARISONS
+
+We provide point_contributions.csv.gz as a losslessly compressed CSV table.
+It contains the reference-selected bins used for the fixed-parameter chi-square
+maps, not all bins of the original spectra. No private model source is included.
+
+Coverage
+--------
+81 pairs of electron temperature and total slab optical depth (a 9 x 9 grid),
+two models (jones and comppsc), both escape surfaces, two inclination windows
+(0--45 and 45--90 degrees), and Stokes I and Q. The table has 146248 rows.
+We use 5 eV blackbody seeds and Lambert-law lower-boundary injection. Each MCRT
+case has 400 independent batches of one million injected photons.
+
+Columns
+-------
+model: jones = recursion + Jones kernel; comppsc = modified compPSc, base mesh.
+stokes: I or Q.
+case: stable parameter-case identifier; use the numerical parameter columns.
+kTe_keV: electron temperature in keV.
+tau: total slab Thomson optical depth.
+boundary: up or down (upper or lower escape surface).
+window: th000_045 or th045_090; inclination is relative to the surface normal.
+band_bins: number of energy bins whose centers fall within the requested band.
+statistical_support_bins: number passing the reference statistical support cut.
+E_left_keV, E_right_keV: measured energy-bin edges in keV.
+model_density: model bin-averaged Stokes photon density.
+MCRT_density: MCRT bin-averaged Stokes photon density, in our comparison convention.
+MCRT_mean_SE: standard error of the MCRT mean, not the scatter of individual batches.
+chi2_contribution: ((model_density - MCRT_density) / MCRT_mean_SE)^2.
+
+All three density/error columns are per injected photon per keV per steradian.
+They are photon densities, not E-weighted or E^2-weighted spectra and not detector
+counts. Q is positive for polarization parallel to the slab surface. The raw
+MCRT convention has already been reversed once; do not reverse this table again.
+We conservatively average the model over the MCRT energy bins. We do not fit
+any amplitude, and both models share exactly the same MCRT reference bins.
+
+Selection and limitations
+-------------------------
+We select bin centers between 0.005 keV and 5 kTe, at least 50 escaped packets,
+at least 8 occupied batches, and E_center^2 I exceeding 1e-8 of its reference
+band peak. The Stokes density and its SE must be finite, with SE > 0.
+There is no Q-significance cut. This table cannot recover excluded bins or
+their packet counts; changing the support requires the original full spectra.
+
+For each (model, case, boundary, window, stokes), we sum chi2_contribution and
+divide by the number of retained rows. The resulting chi2/N reproduces the
+bundled fixed-parameter summary. We use diagonal statistical errors only:
+inter-bin covariance and model numerical errors are not included. In particular,
+compPSc iteration convergence does not certify full numerical-mesh convergence.
+The repeated MCRT values in the two model groups are not independent simulations.
+
+Reading and reproducing the statistic
+------------------------------------
+import pandas as pd
+p = pd.read_csv('data/statistics/point_contributions.csv.gz')
+keys = ['model', 'case', 'boundary', 'window', 'stokes']
+summary = p.groupby(keys).chi2_contribution.agg(['sum', 'count', 'mean'])
+# sum = chi2; count = N; mean = chi2/N (zero fitted parameters).
+
+The accompanying per_bin_validation.json records input hashes, row counts and
+the agreement with the existing heatmap summaries. public_manifest.json checks
+the distributed compressed file and this documentation. These data exports do
+not grant any additional rights to third-party source code.

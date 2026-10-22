@@ -1,0 +1,15 @@
+{
+  "rows": 146248,
+  "cases": 81,
+  "model_surface_angle_summary_rows": 648,
+  "stokes_summary_groups": 1296,
+  "uncompressed_bytes": 31342042,
+  "compressed_bytes": 6829789,
+  "csv_sha256": "812b2515e10944c577e0f14a326d33f957858e134505623009580ea5f5063e30",
+  "gzip_sha256": "b66af219dfd4e114c74e8eaee4a5c739aec988893f5d28ad8fece8961846ee52",
+  "summary_sha256": "0ce03bd4471166db39ae427731a3987dc18cab0c19d1a37876f5bb32ca294a74",
+  "max_relative_summary_difference": 4.440892098500626e-16,
+  "identical_MCRT_reference_between_models": true,
+  "selection": "Only original reference-selected heatmap bins; excluded bins are not bundled in this table",
+  "validation": "passed; per-bin contributions, summary counts and means, duplicate keys, reference equality and lossless decompression checked"
+}

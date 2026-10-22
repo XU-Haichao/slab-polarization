@@ -1,0 +1,106 @@
+{
+  "kTe_keV": 1.0,
+  "tau": 10.0,
+  "theta": 0.0019569511835591837,
+  "seed_temperature_eV": 5.0,
+  "seed_model": "blackbody",
+  "injection": "lambert",
+  "mode": "stokes",
+  "mec2_keV": 510.99895,
+  "angular_windows": [
+    [
+      "th015",
+      0,
+      30
+    ],
+    [
+      "th045",
+      30,
+      60
+    ],
+    [
+      "th075",
+      60,
+      90
+    ]
+  ],
+  "angular_partition": "[0,30), [30,60), [60,90] degrees",
+  "executable_sha256": "a52e82f00008cbb1236be6a76e903a3ad4ff13c4712e3f26962c55f94265a1cb",
+  "total_histories": 400000000,
+  "independent_batches": 400,
+  "max_scatters": 4096,
+  "truncated_histories": 0,
+  "total_escaped_up": 46653471,
+  "total_escaped_down": 353346529,
+  "escaped_energy_underflow": 30887.0,
+  "escaped_energy_overflow": 0.0,
+  "escaped_energy_underflow_fraction": 7.72175e-05,
+  "escaped_energy_overflow_fraction": 0.0,
+  "max_event_energy_error_mec2": 2.2204e-16,
+  "mean_scattering_number": 19.996995000000002,
+  "pilot_cutoff_pair": [
+    4096,
+    8192
+  ],
+  "pilot_cutoff_identical": true,
+  "angular_bin_total_escape_budget_exact": true,
+  "angular_bins_match_surface_energy_histogram_to_csv_precision": true,
+  "opacity_audit": {
+    "theta": 0.0019569511835591837,
+    "energy_min_mec2": 9.999999999999996e-11,
+    "energy_max_mec2": 40.00000000000005,
+    "max_coarse_fine_relative_change": 1.9620253489068733e-05,
+    "max_change_below_1MeV": 1.9620253489068733e-05,
+    "low_energy_ratio": 0.99999999979902
+  },
+  "normalization": "Per injected photon per keV; *_sr additionally divided by 2pi Delta_mu. Not absolute source flux or surface specific intensity.",
+  "se_definition": "Sample standard deviation of 400 independent equal-size batch estimates / sqrt(400); zero-count bins have undefined SE.",
+  "stokes_convention": "project/manuscript Q = -raw MCRT Q",
+  "seed_reference": "5 eV blackbody photon-number PDF, times the Lambert angular PDF averaged over each window; unattenuated injection reference, not the unscattered escaping component.",
+  "angle_counts": [
+    {
+      "boundary": "down",
+      "window": "th015",
+      "all_count": 85805387.0,
+      "count_2_8keV_bin_centers": 119.0,
+      "count_above_10keV": 0.0
+    },
+    {
+      "boundary": "down",
+      "window": "th045",
+      "all_count": 176002624.0,
+      "count_2_8keV_bin_centers": 227.0,
+      "count_above_10keV": 0.0
+    },
+    {
+      "boundary": "down",
+      "window": "th075",
+      "all_count": 91510697.0,
+      "count_2_8keV_bin_centers": 73.0,
+      "count_above_10keV": 0.0
+    },
+    {
+      "boundary": "up",
+      "window": "th015",
+      "all_count": 14194048.0,
+      "count_2_8keV_bin_centers": 124.0,
+      "count_above_10keV": 0.0
+    },
+    {
+      "boundary": "up",
+      "window": "th045",
+      "all_count": 23979490.0,
+      "count_2_8keV_bin_centers": 229.0,
+      "count_above_10keV": 0.0
+    },
+    {
+      "boundary": "up",
+      "window": "th075",
+      "all_count": 8476867.0,
+      "count_2_8keV_bin_centers": 78.0,
+      "count_above_10keV": 0.0
+    }
+  ],
+  "raw_stokes_convention": "Q_positive_projected_slab_normal",
+  "sha256": "bcd374f87404a64624eae4136e3c5120d5655f340307d33fb18cb86754f7493d"
+}

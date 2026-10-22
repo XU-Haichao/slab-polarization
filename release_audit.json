@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "path_redactions": {
+    "low": 512,
+    "high": 512
+  },
+  "remaining_machine_path_hits": [],
+  "data_files_verified": 705,
+  "notebook_unchanged": true,
+  "notebook_sha256": "ef324db3aa3c04fcfc7f685e920d9440cbb82bf55777aad3fe134997a7b2a49d",
+  "relocated_execution": {
+    "status": "passed",
+    "code_cells": 37,
+    "figures": 34,
+    "python": "3.14.2",
+    "numpy": "2.4.1"
+  },
+  "scope": "Decoded text, notebook sources/text outputs and compressed CSV scanned; binary images and bytecode excluded. Full default cell execution in an independent relocated copy.",
+  "provenance_paths": "external-production identifiers denote unbundled historical inputs/outputs, not runtime dependencies"
+}
