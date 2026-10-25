@@ -14,6 +14,9 @@ images, time cuts, ungrouped extraction channels, best-fit parameters and native
 joint-fit spectra/residuals with the three IXPE DUs kept separate. It never
 executes XSPEC, extraction, optimization or chains. See data/observations/README.txt
 for the provenance and limitations of the lightweight observational exports.
+Section 9 distinguishes fit grouping from display rebinning, compares IXPE I
+before/after grouping, and explicitly recomputes Q/U overlap-weighted bins,
+three-DU sums and their covariance. Merged plots do not replace the joint fit.
 
 Keep this complete folder together; the notebook alone is not sufficient.
 From this folder, in a dedicated Python environment, run:

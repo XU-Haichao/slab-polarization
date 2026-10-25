@@ -1,10 +1,11 @@
 {
   "status": "passed",
-  "cells": 22,
-  "code_cells": 11,
-  "figures": 8,
-  "elapsed_seconds": 2.8094253329909407,
+  "cells": 27,
+  "code_cells": 14,
+  "figures": 11,
+  "elapsed_seconds": 3.499772082956042,
   "refitted": false,
   "reextracted": false,
-  "notebook_sha256": "25c86bb6a21459522552b533574dc40242619c6b3e70816ebbbfadfe217cf68d"
+  "rebin_and_du_sum_verified": true,
+  "notebook_sha256": "d0f490b9c094e34787688bfb0004319f53678c15df9c8cb73b3f6108fdc02240"
 }

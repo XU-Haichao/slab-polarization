@@ -33,6 +33,9 @@ Joint I/Q/U plots retain the three IXPE DUs separately. **Run All uses cached
 products only: it performs no extraction, model recalculation or refitting.**
 This lightweight processing record does not reconstruct raw telemetry or bundle
 the original event lists, responses and calibration databases.
+Section 9 demonstrates the actual fit/display binning rules, before/after I
+grouping, and Q/U three-DU summation with propagated covariance. These display
+operations are checked against the cached products and never alter the fit.
 
 ## Contents
 
