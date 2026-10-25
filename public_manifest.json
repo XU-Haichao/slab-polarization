@@ -706,6 +706,17 @@
     "data/western/high.json": "4f31a157a67b1788b31f55ffe8b1740decdfa361cef7b8c17d557c076d41461b",
     "data/western/low.json": "b31dbc3b1534de1b4158a69ae215623bcd0a1389fb33c2ea807af8adf897eb27",
     "data/western/manifest.json": "018f11b71270037c41df37d75a85244a43abb9513a7bfdaa58cb70fac256e043",
-    "data/western/parameter-intervals.json": "b8d645ad22af27f2e9c37e22052f5767aeeeb14c735d649a7b5dc5000630c314"
+    "data/western/parameter-intervals.json": "b8d645ad22af27f2e9c37e22052f5767aeeeb14c735d649a7b5dc5000630c314",
+    "data/observations/event_images.json": "8a61a88f1ad18c874b7a018f4f6811dd8633c5ef38826d05058763c1e42590a0",
+    "data/observations/gti.json": "36de3574ff0d653949c09126fcf142e3990cda248f630910cd5ee167c5c96d3e",
+    "data/observations/data-bindings.json": "feedb2a175e34cccb56f6109ecb252be471ba476a5ed8af47ce573571dc0dbeb",
+    "data/observations/commands.json": "c205082b0e5ae84d778ea024168fe460800f8780b92f167a9e2f2de1eb8d8620",
+    "data/observations/export_audit.json": "d9563c956bd6f0ce5b4072e8fb87ffcf38bdc2233d85f4a9945796dddbf22219",
+    "data/observations/selection.json": "62f0f907df7208aad6a3866f51b2ddffb958bc9e59254887955b527969468584",
+    "data/observations/ungrouped_spectra.json": "069f3681d72f41e93e5facdca98e9b63b3c9c30be789732b7ef8056915de83e5",
+    "data/observations/README.txt": "1a81141b0fe2700d67b685cef393deeba90239daf9bcd92b8198b9650404f5b8",
+    "data/observations/lightcurve.npz": "c936f79c1554a2cb616f94545516801be8597a97270d1edc0e07b449ed57783f",
+    "data/observations/ixpe-event-manifest.json": "882b848a6d4f721b32e57dc2a35eaf6fbd6fed61f55bc0c3f7af9577e84d2022",
+    "data/observations/event_images.npz": "34c0847cb9ecc1cc9f22c2f98081c48c57f1ca76a4bd45eec2c0f623f9245d29"
   }
 }

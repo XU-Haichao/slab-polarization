@@ -1,0 +1,324 @@
+{
+  "spectra": [
+    {
+      "path": "${OBS_ROOT}/products/standard-v4-20261007/nustar/nu90901327002A01_sr_optmin25.pha",
+      "sha256": "159a68339e187359cb62d5c1c1ba1f92cc780b8bbfef83698c95eb362859869a",
+      "EXPOSURE": 30828.9122602636,
+      "references": {
+        "RESPFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/nustar/nu90901327002A01_sr.rmf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "c80dc6e588e70523740965f5c80db256a3896556e13123a32871f8b4aa22ff96"
+        },
+        "ANCRFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/nustar/nu90901327002A01_sr.arf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "03dd3238ffdb278a621be5b197e5c6d54806090988115387a6e4c5f61e90c835"
+        },
+        "BACKFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/nustar/nu90901327002A01_bk.pha",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "698b9c930e4a341f50a1917ab58aa956b6b9262dd52d8d63b363e80e1311ce67"
+        }
+      },
+      "group": 1,
+      "stokes": "I",
+      "background_EXPOSURE": 30828.91226026359
+    },
+    {
+      "path": "${OBS_ROOT}/products/standard-v4-20261007/nustar/nu90901327002B01_sr_optmin25.pha",
+      "sha256": "0e2115a901677af3fb2a52d82d9ec03c55453ee46fd929dbbe002e0aca9b8c32",
+      "EXPOSURE": 30442.7523080965,
+      "references": {
+        "RESPFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/nustar/nu90901327002B01_sr.rmf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "cc127c84776102a28879aa87aefea20fb556e4bc2d95786f854e2916ff087915"
+        },
+        "ANCRFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/nustar/nu90901327002B01_sr.arf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "8e7b24925ec4ed84c66eb528628735667f4945716004e267e42a50c3608393d1"
+        },
+        "BACKFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/nustar/nu90901327002B01_bk.pha",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "ce1ef5480cb823ddc31a95d701ff87f4068baa6283bf362e6225fd43ae699069"
+        }
+      },
+      "group": 2,
+      "stokes": "I",
+      "background_EXPOSURE": 30442.75230809646
+    },
+    {
+      "path": "${OBS_ROOT}/products/standard-v4-20261007/nicer/combined/combined_optmin25.pha",
+      "sha256": "3c42cd373e42b7adb2c237a3eb669183cb75711b107d76e368c99bebc94a6cc9",
+      "EXPOSURE": 2214.0,
+      "references": {
+        "RESPFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/nicer/combined/combined.rmf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "c6cc537b7c3fa9b037f2b3a4591a66c37c0f1b833b062478c312553decd8959b"
+        },
+        "ANCRFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/nicer/combined/combined.arf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "11202848fe9bd46792099ca6e04f4d675432dd3b1f4f538e6d572ba3b3d61819"
+        },
+        "BACKFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/nicer/combined/combined_bg.pha",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "ed9353c342b5cf677e68ddccaf050064f14c8a0b9378318a69390bab599c556c"
+        }
+      },
+      "group": 3,
+      "stokes": "I",
+      "background_EXPOSURE": 3000000000.0
+    },
+    {
+      "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU1_I_min25.pi",
+      "sha256": "928faa9723a5cbb1d30536e342ad9c473ba9ea9bee273a2f385fee0230c77391",
+      "EXPOSURE": 189236.497118157,
+      "references": {
+        "RESPFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe_d1_20170101_alpha075_02.rmf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "541e6c4e96e41a65700f806e423007d6ac64944fd7dd83c43f76676f6ccf106f"
+        },
+        "ANCRFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_1.arf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "ccf0f559ddbc3f703bdaef35b7066ce052e918f2736eda39ec7e2d7534cb8006"
+        },
+        "BACKFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU1_bg_I.pi",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "9604ece90e1d56c29ae69b761537a0f70d63e40f971e6b21c074fac50f9ae666"
+        }
+      },
+      "group": 4,
+      "stokes": "I",
+      "background_EXPOSURE": 189236.4971181571
+    },
+    {
+      "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU2_I_min25.pi",
+      "sha256": "d7d1cd8b54f74b8a3d866d979f825d561e9584cdc21dc58ebdf90de0663daa22",
+      "EXPOSURE": 189314.553432622,
+      "references": {
+        "RESPFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe_d2_20170101_alpha075_02.rmf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "2724556338fa54e3377259538975011f5685fdce4ffee599d351bea9caa97df0"
+        },
+        "ANCRFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_2.arf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "002d1c98fdc4dad118c52edd5a9cf53b653da63ec03d7fa5cd2c81fac880869a"
+        },
+        "BACKFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU2_bg_I.pi",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "40e2c0906f28ea6628c75de07ae88f3e8f560459610dd453cd05aff8049ef882"
+        }
+      },
+      "group": 5,
+      "stokes": "I",
+      "background_EXPOSURE": 189314.5534326219
+    },
+    {
+      "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU3_I_min25.pi",
+      "sha256": "95be5e1b50d3495b631dae95a61bfedc4422aa214247908e1715530211088bf5",
+      "EXPOSURE": 189189.270421959,
+      "references": {
+        "RESPFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe_d3_20170101_alpha075_02.rmf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "b8b2d36c611ed5e0d0ec3054787d6ceb909be28a1d4440260e176dc66fe7e7a7"
+        },
+        "ANCRFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_3.arf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "538d1db219c57afc59fd65e03b37bc974a8c3257443e8b2cd304becae9b1a9f8"
+        },
+        "BACKFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU3_bg_I.pi",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "0e4373b8c21200c4caaeab1a232af7a267047d9801a8985d4dca71338f0f4e0f"
+        }
+      },
+      "group": 6,
+      "stokes": "I",
+      "background_EXPOSURE": 189189.2704219591
+    },
+    {
+      "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU1_Q_Igroup.pi",
+      "sha256": "0fae728028e8899b7f5e05288e287820813b8eb8eea515f27cebd4f04c62cf54",
+      "EXPOSURE": 189236.4971181571,
+      "references": {
+        "RESPFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe_d1_20170101_alpha075_02.rmf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "541e6c4e96e41a65700f806e423007d6ac64944fd7dd83c43f76676f6ccf106f"
+        },
+        "ANCRFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_1.mrf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "98923d6028cfacd7d6c9174527f6d940328bc8ee9c472ca2892f0dadb6f21698"
+        },
+        "BACKFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU1_bg_Q.pi",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "d8936833d9b3fd4b0f575dd2e1d4c2d116d056795060637f06d7d75aba8afcf3"
+        }
+      },
+      "group": 7,
+      "stokes": "Q",
+      "background_EXPOSURE": 189236.4971181571
+    },
+    {
+      "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU1_U_Igroup.pi",
+      "sha256": "f889cac21c28814accb25d57c9af3419479b9042c316f8c07f2140da8aaa0b51",
+      "EXPOSURE": 189236.4971181571,
+      "references": {
+        "RESPFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe_d1_20170101_alpha075_02.rmf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "541e6c4e96e41a65700f806e423007d6ac64944fd7dd83c43f76676f6ccf106f"
+        },
+        "ANCRFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_1.mrf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "98923d6028cfacd7d6c9174527f6d940328bc8ee9c472ca2892f0dadb6f21698"
+        },
+        "BACKFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU1_bg_U.pi",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "a9dd62fc1b0781ab5de56176045cc3ec5145bca9a279a3a37e665f384364b842"
+        }
+      },
+      "group": 8,
+      "stokes": "U",
+      "background_EXPOSURE": 189236.4971181571
+    },
+    {
+      "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU2_Q_Igroup.pi",
+      "sha256": "e8388a6b1217e169d200b26b71ddba1885c3595b3b8ac40e3fea13bb4c4caf41",
+      "EXPOSURE": 189314.5534326219,
+      "references": {
+        "RESPFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe_d2_20170101_alpha075_02.rmf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "2724556338fa54e3377259538975011f5685fdce4ffee599d351bea9caa97df0"
+        },
+        "ANCRFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_2.mrf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "847aedf8175c9a7d93bc35529b7be25dae2dafc987d5aae5ad3336f8d25adc24"
+        },
+        "BACKFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU2_bg_Q.pi",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "a2696a6097aa0fcdfa682a4663a18af96470e3b392e5b86839050b48ff1ad7e0"
+        }
+      },
+      "group": 9,
+      "stokes": "Q",
+      "background_EXPOSURE": 189314.5534326219
+    },
+    {
+      "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU2_U_Igroup.pi",
+      "sha256": "0fc09f5f55662e3eb625a287a4a609b266061c2a6f6f67ffde23046f7ce05c87",
+      "EXPOSURE": 189314.5534326219,
+      "references": {
+        "RESPFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe_d2_20170101_alpha075_02.rmf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "2724556338fa54e3377259538975011f5685fdce4ffee599d351bea9caa97df0"
+        },
+        "ANCRFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_2.mrf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "847aedf8175c9a7d93bc35529b7be25dae2dafc987d5aae5ad3336f8d25adc24"
+        },
+        "BACKFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU2_bg_U.pi",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "b1dca6b5e2ccacbc02e2207d4624fc19c048d84861fb9b8019f6afaf15345992"
+        }
+      },
+      "group": 10,
+      "stokes": "U",
+      "background_EXPOSURE": 189314.5534326219
+    },
+    {
+      "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU3_Q_Igroup.pi",
+      "sha256": "4430d98e3b1a0831118b0c539834820e68a19ec9c6246f6f936af0f2d7754f03",
+      "EXPOSURE": 189189.2704219591,
+      "references": {
+        "RESPFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe_d3_20170101_alpha075_02.rmf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "b8b2d36c611ed5e0d0ec3054787d6ceb909be28a1d4440260e176dc66fe7e7a7"
+        },
+        "ANCRFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_3.mrf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "d978f1cb1c03d2ea33bccb030c33c44ee94a1e2de855ffecc8cee086a7f4c779"
+        },
+        "BACKFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU3_bg_Q.pi",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "c9cb24aa380a044210d22f1ace5e695d73a1ce40a39d50c026935a1d097cf480"
+        }
+      },
+      "group": 11,
+      "stokes": "Q",
+      "background_EXPOSURE": 189189.2704219591
+    },
+    {
+      "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU3_U_Igroup.pi",
+      "sha256": "0523f3d1e76962f4c571f1f12bdf15b1e1c9191c1002eada7ca55a6b0e657b81",
+      "EXPOSURE": 189189.2704219591,
+      "references": {
+        "RESPFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe_d3_20170101_alpha075_02.rmf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "b8b2d36c611ed5e0d0ec3054787d6ceb909be28a1d4440260e176dc66fe7e7a7"
+        },
+        "ANCRFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_3.mrf",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "d978f1cb1c03d2ea33bccb030c33c44ee94a1e2de855ffecc8cee086a7f4c779"
+        },
+        "BACKFILE": {
+          "path": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/spectra/ixpe02007301_DU3_bg_U.pi",
+          "alias": "${EXTERNAL_RESOURCE}",
+          "sha256": "e66f5d41e754bdc8f53d7a32eab6d27c5599ad1280479348572180c338d0a76b"
+        }
+      },
+      "group": 12,
+      "stokes": "U",
+      "background_EXPOSURE": 189189.2704219591
+    }
+  ],
+  "fit_energy_keV": {
+    "NuSTAR": [
+      4.5,
+      20
+    ],
+    "NICER": [
+      1.5,
+      10
+    ],
+    "IXPE": [
+      2,
+      8
+    ]
+  },
+  "source_background_separate_stokes": true,
+  "Q_U_use_I_grouping": true,
+  "fit_energy_revision": {
+    "reason": "Prior actual NuSTAR best-fit channels and paper figure use 4.5\u201320; initial v4 3\u201320 trial was a broader-band control. No PHA, background, response or GTI changed.",
+    "control_config": "${OBS_ROOT}/products/standard-v4-20261007/data-bindings-nu3-control.json"
+  }
+}

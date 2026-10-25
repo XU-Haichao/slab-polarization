@@ -1,0 +1,136 @@
+{
+  "version": "standard-v4-20261007",
+  "threshold_count_rate": "Ordinary unweighted source-region 2\u20138 keV photon counts, after historical particle rejection, divided by summed three-DU live exposure.",
+  "source_region": "120 arcsec circle; historical Di Marco background rejection retained",
+  "bin_width_s": 16,
+  "threshold_count_s_per_DU": 0.45,
+  "minimum_sum_DU_livetime_s": 9.6,
+  "normalization_ambiguity": "Per-detector normalization follows the paper figure; prose calls the three-DU total. Literal-sum alternative and weighted-rate pilot are preserved. No claim to exact author GTI.",
+  "unknown_gaps": "Excluded. All missions intersect the same master state GTI; this deliberately conservative subset loses other-mission exposure when no IXPE rate is available.",
+  "event_calibration": "Archived IXPE SOC L2 v02, CALDBVER=20221020; no new event reconstruction. NuSTAR cleaned-event CALDBVER=20240130, NICER=xti20240206.",
+  "response_calibration": "Copied historical 20240125 IXPE, 20240130 NuSTAR, 20240206 NICER indices and qualified files; shared read-only-by-convention copy, checked hashes.",
+  "not_author_exact_GTI": true,
+  "summary": {
+    "nondip_per_DU": {
+      "bins": 11949,
+      "intervals": 218,
+      "mean_DU_livetime_s": 189246.77889887578
+    },
+    "dip_per_DU": {
+      "bins": 601,
+      "intervals": 110,
+      "mean_DU_livetime_s": 9553.924055822696
+    },
+    "nondip_literal_three_DU_sum": {
+      "bins": 12529,
+      "intervals": 135,
+      "mean_DU_livetime_s": 198467.3488124959
+    },
+    "dip_literal_three_DU_sum": {
+      "bins": 21,
+      "intervals": 21,
+      "mean_DU_livetime_s": 333.3541422026207
+    }
+  },
+  "mission_exposure_partition": [
+    {
+      "event": "${OBS_ROOT}/products/ixpe/02007301/ixpe02007301_det2_evt2_v02_rej.fits",
+      "own_GTI_ontime_s": 199352.1317795515,
+      "selected_ontime_s": {
+        "nondip": 189677.48770672083,
+        "dip": 9573.999601662159,
+        "unknown": 100.64447116851807
+      },
+      "TT_epoch_offset_to_IXPE_s": 0.0,
+      "CALDBVER": "20221020"
+    },
+    {
+      "event": "${OBS_ROOT}/products/ixpe/02007301/ixpe02007301_det1_evt2_v02_rej.fits",
+      "own_GTI_ontime_s": 199281.10870945454,
+      "selected_ontime_s": {
+        "nondip": 189609.0423886776,
+        "dip": 9573.555883646011,
+        "unknown": 98.51043713092804
+      },
+      "TT_epoch_offset_to_IXPE_s": 0.0,
+      "CALDBVER": "20221020"
+    },
+    {
+      "event": "${OBS_ROOT}/products/ixpe/02007301/ixpe02007301_det3_evt2_v02_rej.fits",
+      "own_GTI_ontime_s": 199240.3207976818,
+      "selected_ontime_s": {
+        "nondip": 189553.7757076919,
+        "dip": 9569.747534751892,
+        "unknown": 116.7975552380085
+      },
+      "TT_epoch_offset_to_IXPE_s": 0.0,
+      "CALDBVER": "20221020"
+    },
+    {
+      "event": "${OBS_ROOT}/products/nustar/90901327002/nu90901327002B01_cl.evt",
+      "own_GTI_ontime_s": 47683.67609322071,
+      "selected_ontime_s": {
+        "nondip": 35879.47622561455,
+        "dip": 901.9999998807907,
+        "unknown": 10902.199867725372
+      },
+      "TT_epoch_offset_to_IXPE_s": -220924802.99999988,
+      "CALDBVER": "20240130"
+    },
+    {
+      "event": "${OBS_ROOT}/products/nustar/90901327002/nu90901327002A01_cl.evt",
+      "own_GTI_ontime_s": 47670.67609322071,
+      "selected_ontime_s": {
+        "nondip": 35869.47622561455,
+        "dip": 898.9999998807907,
+        "unknown": 10902.199867725372
+      },
+      "TT_epoch_offset_to_IXPE_s": -220924802.99999988,
+      "CALDBVER": "20240130"
+    },
+    {
+      "event": "${OBS_ROOT}/products/nicer/6203930104/xti/event_cl/ni6203930104_0mpu7_cl.evt",
+      "own_GTI_ontime_s": 803.0,
+      "selected_ontime_s": {
+        "nondip": 223.0,
+        "dip": 0.0,
+        "unknown": 580.0
+      },
+      "TT_epoch_offset_to_IXPE_s": -94694403.0,
+      "CALDBVER": "xti20240206"
+    },
+    {
+      "event": "${OBS_ROOT}/products/nicer/6203930102/xti/event_cl/ni6203930102_0mpu7_cl.evt",
+      "own_GTI_ontime_s": 147.0,
+      "selected_ontime_s": {
+        "nondip": 0.0,
+        "dip": 0.0,
+        "unknown": 147.0
+      },
+      "TT_epoch_offset_to_IXPE_s": -94694403.0,
+      "CALDBVER": "xti20240206"
+    },
+    {
+      "event": "${OBS_ROOT}/products/nicer/6203930105/xti/event_cl/ni6203930105_0mpu7_cl.evt",
+      "own_GTI_ontime_s": 696.0,
+      "selected_ontime_s": {
+        "nondip": 595.0,
+        "dip": 16.0,
+        "unknown": 85.0
+      },
+      "TT_epoch_offset_to_IXPE_s": -94694403.0,
+      "CALDBVER": "xti20240206"
+    },
+    {
+      "event": "${OBS_ROOT}/products/nicer/6203930103/xti/event_cl/ni6203930103_0mpu7_cl.evt",
+      "own_GTI_ontime_s": 1792.0,
+      "selected_ontime_s": {
+        "nondip": 1396.0,
+        "dip": 5.0,
+        "unknown": 391.0
+      },
+      "TT_epoch_offset_to_IXPE_s": -94694403.0,
+      "CALDBVER": "xti20240206"
+    }
+  ]
+}

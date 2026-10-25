@@ -1,0 +1,17 @@
+{
+  "refitted": false,
+  "reextracted": false,
+  "source_version": "standard-v4-20261007",
+  "note": "Read-only export of existing event images, ungrouped PHA channels, GTIs and command records.",
+  "files_sha256": {
+    "gti.json": "36de3574ff0d653949c09126fcf142e3990cda248f630910cd5ee167c5c96d3e",
+    "lightcurve.npz": "c936f79c1554a2cb616f94545516801be8597a97270d1edc0e07b449ed57783f",
+    "ixpe-event-manifest.json": "882b848a6d4f721b32e57dc2a35eaf6fbd6fed61f55bc0c3f7af9577e84d2022",
+    "data-bindings.json": "feedb2a175e34cccb56f6109ecb252be471ba476a5ed8af47ce573571dc0dbeb",
+    "selection.json": "62f0f907df7208aad6a3866f51b2ddffb958bc9e59254887955b527969468584",
+    "event_images.json": "8a61a88f1ad18c874b7a018f4f6811dd8633c5ef38826d05058763c1e42590a0",
+    "event_images.npz": "34c0847cb9ecc1cc9f22c2f98081c48c57f1ca76a4bd45eec2c0f623f9245d29",
+    "ungrouped_spectra.json": "069f3681d72f41e93e5facdca98e9b63b3c9c30be789732b7ef8056915de83e5",
+    "commands.json": "c205082b0e5ae84d778ea024168fe460800f8780b92f167a9e2f2de1eb8d8620"
+  }
+}

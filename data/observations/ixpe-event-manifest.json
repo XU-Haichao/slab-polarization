@@ -1,0 +1,35 @@
+[
+  {
+    "du": 1,
+    "input": "${OBS_ROOT}/products/ixpe/02007301/ixpe02007301_det1_evt2_v02_rej.fits",
+    "selected": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/input/event_l2/ixpe02007301_det1_evt2_v02.fits",
+    "original_events": 326623,
+    "selected_events": 318042,
+    "ontime_s": 189609.0423886776,
+    "livetime_s": 189236.50176571595,
+    "deadtime_method": "Original full-observation LIVETIME/ONTIME ratio, approximate constant deadtime; less than 0.2% correction.",
+    "CALDBVER_event": "20221020"
+  },
+  {
+    "du": 2,
+    "input": "${OBS_ROOT}/products/ixpe/02007301/ixpe02007301_det2_evt2_v02_rej.fits",
+    "selected": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/input/event_l2/ixpe02007301_det2_evt2_v02.fits",
+    "original_events": 311136,
+    "selected_events": 302520,
+    "ontime_s": 189677.48770672083,
+    "livetime_s": 189314.55890097082,
+    "deadtime_method": "Original full-observation LIVETIME/ONTIME ratio, approximate constant deadtime; less than 0.2% correction.",
+    "CALDBVER_event": "20221020"
+  },
+  {
+    "du": 3,
+    "input": "${OBS_ROOT}/products/ixpe/02007301/ixpe02007301_det3_evt2_v02_rej.fits",
+    "selected": "${OBS_ROOT}/products/standard-v4-20261007/ixpe/input/event_l2/ixpe02007301_det3_evt2_v02.fits",
+    "original_events": 303682,
+    "selected_events": 295434,
+    "ontime_s": 189553.7757076919,
+    "livetime_s": 189189.27602994064,
+    "deadtime_method": "Original full-observation LIVETIME/ONTIME ratio, approximate constant deadtime; less than 0.2% correction.",
+    "CALDBVER_event": "20221020"
+  }
+]

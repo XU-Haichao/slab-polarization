@@ -1,5 +1,5 @@
 POLARIZED THOMSON TRANSPORT IN A SLAB — PAPER COMPANION
-Release candidate updated 2026-10-22
+Release candidate updated 2026-10-25
 
 1. Purpose and quick start
 ==========================
@@ -7,6 +7,13 @@ We provide calculations, paper figures and supporting checks for our slab
 Stokes-recursion framework. The companion includes numerical MCRT and compPSc
 benchmarks and derived 4U 1624-49 spectral-fit exports. Ordinary execution does
 not rerun those simulations or observational fits.
+
+For the independent observational processing record, open
+observational_analysis.ipynb. Its Run All is offline: it displays event-region
+images, time cuts, ungrouped extraction channels, best-fit parameters and native
+joint-fit spectra/residuals with the three IXPE DUs kept separate. It never
+executes XSPEC, extraction, optimization or chains. See data/observations/README.txt
+for the provenance and limitations of the lightweight observational exports.
 
 Keep this complete folder together; the notebook alone is not sufficient.
 From this folder, in a dedicated Python environment, run:
@@ -23,6 +30,8 @@ not needed after installing dependencies.
 2. Directory contents
 =====================
 paper_companion.ipynb   Executed notebook, including supporting figures.
+observational_analysis.ipynb  Executed, no-refit 4U 1624-49 processing record.
+observational_execution_report.json  Separate run and checksum audit.
 helpers/               Data-loading, plotting and numerical-cache helpers.
 plot_style.py          Shared Matplotlib style.
 requirements.txt       Python dependencies.
@@ -77,6 +86,7 @@ data/mean_validation/   Independent mean-scattering validation cases.
 data/spectra/           Four-case MCRT/Jones/compPSc spectral comparisons.
 data/bestfit_validation/ Low-/high-reflection MCRT/Jones spectra and run audits.
 data/western/           Derived spectral-fit and model-component exports.
+data/observations/      Region images, ungrouped channels, GTIs and command records.
 data/statistics/        81-case summaries and selected-bin comparison table.
 
 We use total slab Thomson optical depth. In our comparison convention,

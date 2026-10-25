@@ -25,6 +25,15 @@ XSPEC, compPSc, or remote jobs. No private compPSc installation is required.
 See the [full usage and data guide](README.txt) for section descriptions,
 recalculation controls, conventions, limitations and provenance.
 
+For the observational analysis, open
+[observational_analysis.ipynb](observational_analysis.ipynb). It documents the
+4U 1624-49 observation IDs, source/background apertures, non-dip GTIs, extraction
+settings, ungrouped spectra and adopted low-/high-reflection fit parameters.
+Joint I/Q/U plots retain the three IXPE DUs separately. **Run All uses cached
+products only: it performs no extraction, model recalculation or refitting.**
+This lightweight processing record does not reconstruct raw telemetry or bundle
+the original event lists, responses and calibration databases.
+
 ## Contents
 
 - Scalar and Stokes scattering-order recursions and three seed-source configurations.
@@ -43,7 +52,8 @@ figures are displayed without additional exports.
 
 Keep [data/](data/), [helpers/](helpers/), [plot_style.py](plot_style.py) and
 [public_manifest.json](public_manifest.json) alongside the notebook.
-The manifest verifies all 705 distributed data files.
+The manifest verifies all distributed data files, including the lightweight
+[observational exports](data/observations/README.txt).
 
 The [81-case selected-bin table](data/statistics/point_contributions.csv.gz)
 contains 146,248 rows (approximately 6.5 MiB compressed), including model

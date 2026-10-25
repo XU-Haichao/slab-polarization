@@ -1,0 +1,205 @@
+[
+  {
+    "label": "IXPE DU1",
+    "key": "IXPE_DU1",
+    "event": "${OBS_ROOT}/products/ixpe/02007301/ixpe02007301_det1_evt2_v02_rej.fits",
+    "event_size": 15716160,
+    "sha256": "cd603b3d198258b441efa2108f2afd7d6ceb26aa2a499e6f8acc770ccfba77f2",
+    "caldb": "20221020",
+    "regions": [
+      {
+        "role": "source",
+        "text": "fk5\ncircle(247.01177083,-49.19850278,120\")\n",
+        "center_arcsec": [
+          0.0,
+          0.0
+        ],
+        "radii_arcsec": [
+          120.0
+        ]
+      },
+      {
+        "role": "background",
+        "text": "fk5\nannulus(247.01177083,-49.19850278,180\",240\")\n",
+        "center_arcsec": [
+          0.0,
+          0.0
+        ],
+        "radii_arcsec": [
+          180.0,
+          240.0
+        ]
+      }
+    ],
+    "extent": [
+      -360,
+      360,
+      -360,
+      360
+    ],
+    "energy_selection": "2\u20138 keV",
+    "events_in_image": 241771
+  },
+  {
+    "label": "IXPE DU2",
+    "key": "IXPE_DU2",
+    "event": "${OBS_ROOT}/products/ixpe/02007301/ixpe02007301_det2_evt2_v02_rej.fits",
+    "event_size": 14973120,
+    "sha256": "aed1b84f4d70b2d8f1038e945db8ccab631f486144d50de2e1e715651026f828",
+    "caldb": "20221020",
+    "regions": [
+      {
+        "role": "source",
+        "text": "fk5\ncircle(247.01177083,-49.19850278,120\")\n",
+        "center_arcsec": [
+          0.0,
+          0.0
+        ],
+        "radii_arcsec": [
+          120.0
+        ]
+      },
+      {
+        "role": "background",
+        "text": "fk5\nannulus(247.01177083,-49.19850278,180\",240\")\n",
+        "center_arcsec": [
+          0.0,
+          0.0
+        ],
+        "radii_arcsec": [
+          180.0,
+          240.0
+        ]
+      }
+    ],
+    "extent": [
+      -360,
+      360,
+      -360,
+      360
+    ],
+    "energy_selection": "2\u20138 keV",
+    "events_in_image": 222527
+  },
+  {
+    "label": "IXPE DU3",
+    "key": "IXPE_DU3",
+    "event": "${OBS_ROOT}/products/ixpe/02007301/ixpe02007301_det3_evt2_v02_rej.fits",
+    "event_size": 14616000,
+    "sha256": "370b47c9035f7710fbd5372a67333389313160eb56e90cf2d0bbe7c3dfec7fc3",
+    "caldb": "20221020",
+    "regions": [
+      {
+        "role": "source",
+        "text": "fk5\ncircle(247.01177083,-49.19850278,120\")\n",
+        "center_arcsec": [
+          0.0,
+          0.0
+        ],
+        "radii_arcsec": [
+          120.0
+        ]
+      },
+      {
+        "role": "background",
+        "text": "fk5\nannulus(247.01177083,-49.19850278,180\",240\")\n",
+        "center_arcsec": [
+          0.0,
+          0.0
+        ],
+        "radii_arcsec": [
+          180.0,
+          240.0
+        ]
+      }
+    ],
+    "extent": [
+      -360,
+      360,
+      -360,
+      360
+    ],
+    "energy_selection": "2\u20138 keV",
+    "events_in_image": 222288
+  },
+  {
+    "label": "NuSTAR FPMA",
+    "key": "NuSTAR_FPMA",
+    "event": "${OBS_ROOT}/products/nustar/90901327002/nu90901327002A01_cl.evt",
+    "event_size": 63210240,
+    "sha256": "7dfc71700ef1d5e7d492a72a09f0d4c0f94781d0e3dfd0404fbbb64344db6abd",
+    "caldb": "20240130",
+    "regions": [
+      {
+        "role": "source",
+        "text": "fk5\ncircle(247.01177083,-49.19850278,120\")\n",
+        "center_arcsec": [
+          0.0,
+          0.0
+        ],
+        "radii_arcsec": [
+          120.0
+        ]
+      },
+      {
+        "role": "background",
+        "text": "fk5\ncircle(247.043088741,-49.123392841,60\")\n",
+        "center_arcsec": [
+          -73.92095779320942,
+          270.34377307030775
+        ],
+        "radii_arcsec": [
+          60.0
+        ]
+      }
+    ],
+    "extent": [
+      -360,
+      360,
+      -360,
+      360
+    ],
+    "energy_selection": "PI 35\u2013485 (nuproducts selection)",
+    "events_in_image": 1357160
+  },
+  {
+    "label": "NuSTAR FPMB",
+    "key": "NuSTAR_FPMB",
+    "event": "${OBS_ROOT}/products/nustar/90901327002/nu90901327002B01_cl.evt",
+    "event_size": 66257280,
+    "sha256": "1fb3d4524b33db0dc4db3d2b9d7bafc2de53f91d5bf645686a3856c91add8636",
+    "caldb": "20240130",
+    "regions": [
+      {
+        "role": "source",
+        "text": "fk5\ncircle(247.01177083,-49.19850278,120\")\n",
+        "center_arcsec": [
+          0.0,
+          0.0
+        ],
+        "radii_arcsec": [
+          120.0
+        ]
+      },
+      {
+        "role": "background",
+        "text": "fk5\ncircle(247.053522316,-49.123390570,60\")\n",
+        "center_arcsec": [
+          -98.50206831126954,
+          270.32764990786706
+        ],
+        "radii_arcsec": [
+          60.0
+        ]
+      }
+    ],
+    "extent": [
+      -360,
+      360,
+      -360,
+      360
+    ],
+    "energy_selection": "PI 35\u2013485 (nuproducts selection)",
+    "events_in_image": 1411157
+  }
+]
