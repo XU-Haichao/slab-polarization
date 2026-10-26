@@ -74,15 +74,20 @@ Section 14     Fixed-parameter chi-square maps relative to MCRT.
 Section 15     Low-/high-reflection Western-model fits of 4U 1624-49, followed
                 by independent best-fit coronal MCRT validations.
 Section 16     Reproducibility and scope.
+Section 17     Supplementary thermal-angular + Jones test at 20 keV, tau=1/10;
+                both surfaces, MCRT/compPSc comparisons and fixed-model residuals.
+                This recoil-free, factorized diagnostic does not replace the
+                stationary-electron Thomson model. Four display-only figures.
 
-We retain 81 cells (37 executable) and 34 displayed figures: 17 saved
-paper/appendix figures and 17 display-only supporting figures. Use section
+We retain 89 cells (41 executable) and 38 displayed figures: 17 saved
+paper/appendix figures and 21 display-only supporting figures. Use section
 headings rather than cell numbers as stable navigation targets. PDF filenames,
 rather than manuscript figure numbers, are the stable output identifiers.
 
 4. Data inventory and conventions
 =================================
 data/transport/          Recursion/eigenmode caches (NPZ).
+data/thermal_angular/    Cached 20 keV thermal-angular diagnostic and grid audits.
 data/avoided_crossings/  Full-matrix eigenpairs, gaps, overlaps and grid checks.
 data/order_validation/  Cold-electron order-resolved MCRT counts and statistics.
 data/mean_validation/   Independent mean-scattering validation cases.
@@ -154,11 +159,14 @@ Changed parameters and regenerated caches require their own validation; do
 not silently bypass a checksum mismatch. Paper figures are written to figure/;
 supporting figures, including the k^6 and gap diagnostics, are displayed only.
 
-The latest notebook run passed all 37 code cells and produced 34 figures using
+The original full notebook run passed 37 code cells and produced 34 figures using
 Python 3.14.2 and NumPy 2.4.1. Validation executes cells sequentially in a fresh
 Python process and captures Matplotlib output; it is not a separate interactive
 Jupyter-browser rendering test. release_audit.json records the additional
 relocated-folder execution after path cleanup.
+The appended Section 17 passed a separate fresh-kernel run of all four new
+code cells and four figures; thermal_angular_execution_report.json records the
+updated notebook checksum. The preceding 81 cells were verified unchanged.
 
 public_manifest.json covers data files, not the entire distribution. The
 notebook hash is in execution_report.json. Hashes inside provenance records

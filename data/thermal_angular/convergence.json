@@ -1,0 +1,194 @@
+[
+  {
+    "tau": 1,
+    "side": "up",
+    "window": "th015",
+    "stokes": "I",
+    "cold_vs_production_peak_scaled_max": 4.6327612925801855e-08,
+    "thermal_grid_peak_scaled_max": 4.6368380693544884e-08
+  },
+  {
+    "tau": 1,
+    "side": "up",
+    "window": "th015",
+    "stokes": "Q",
+    "cold_vs_production_peak_scaled_max": 7.255516290827468e-07,
+    "thermal_grid_peak_scaled_max": 2.278048559324046e-07
+  },
+  {
+    "tau": 1,
+    "side": "up",
+    "window": "th045",
+    "stokes": "I",
+    "cold_vs_production_peak_scaled_max": 7.092010416288304e-08,
+    "thermal_grid_peak_scaled_max": 8.411512431213423e-08
+  },
+  {
+    "tau": 1,
+    "side": "up",
+    "window": "th045",
+    "stokes": "Q",
+    "cold_vs_production_peak_scaled_max": 8.029826179342811e-07,
+    "thermal_grid_peak_scaled_max": 3.1581712003324235e-07
+  },
+  {
+    "tau": 1,
+    "side": "up",
+    "window": "th075",
+    "stokes": "I",
+    "cold_vs_production_peak_scaled_max": 1.6600678353877748e-07,
+    "thermal_grid_peak_scaled_max": 3.5883472264241305e-07
+  },
+  {
+    "tau": 1,
+    "side": "up",
+    "window": "th075",
+    "stokes": "Q",
+    "cold_vs_production_peak_scaled_max": 1.1110389476548312e-06,
+    "thermal_grid_peak_scaled_max": 9.129784669177068e-07
+  },
+  {
+    "tau": 1,
+    "side": "down",
+    "window": "th015",
+    "stokes": "I",
+    "cold_vs_production_peak_scaled_max": 8.054576772432741e-08,
+    "thermal_grid_peak_scaled_max": 6.503805259119608e-08
+  },
+  {
+    "tau": 1,
+    "side": "down",
+    "window": "th015",
+    "stokes": "Q",
+    "cold_vs_production_peak_scaled_max": 7.609812085067507e-07,
+    "thermal_grid_peak_scaled_max": 2.50119379394664e-07
+  },
+  {
+    "tau": 1,
+    "side": "down",
+    "window": "th045",
+    "stokes": "I",
+    "cold_vs_production_peak_scaled_max": 9.812452607225403e-08,
+    "thermal_grid_peak_scaled_max": 9.315264952889661e-08
+  },
+  {
+    "tau": 1,
+    "side": "down",
+    "window": "th045",
+    "stokes": "Q",
+    "cold_vs_production_peak_scaled_max": 7.900374917209103e-07,
+    "thermal_grid_peak_scaled_max": 2.1514178574336077e-07
+  },
+  {
+    "tau": 1,
+    "side": "down",
+    "window": "th075",
+    "stokes": "I",
+    "cold_vs_production_peak_scaled_max": 1.4642145331683208e-07,
+    "thermal_grid_peak_scaled_max": 2.3462690608412104e-07
+  },
+  {
+    "tau": 1,
+    "side": "down",
+    "window": "th075",
+    "stokes": "Q",
+    "cold_vs_production_peak_scaled_max": 1.201256783844655e-06,
+    "thermal_grid_peak_scaled_max": 5.137163931490629e-07
+  },
+  {
+    "tau": 10,
+    "side": "up",
+    "window": "th015",
+    "stokes": "I",
+    "cold_vs_production_peak_scaled_max": 1.7574045334930171e-06,
+    "thermal_grid_peak_scaled_max": 4.442831586175811e-06
+  },
+  {
+    "tau": 10,
+    "side": "up",
+    "window": "th015",
+    "stokes": "Q",
+    "cold_vs_production_peak_scaled_max": 8.317360203248497e-07,
+    "thermal_grid_peak_scaled_max": 2.7762896655010006e-06
+  },
+  {
+    "tau": 10,
+    "side": "up",
+    "window": "th045",
+    "stokes": "I",
+    "cold_vs_production_peak_scaled_max": 1.5518891471375849e-06,
+    "thermal_grid_peak_scaled_max": 3.2758078328196493e-06
+  },
+  {
+    "tau": 10,
+    "side": "up",
+    "window": "th045",
+    "stokes": "Q",
+    "cold_vs_production_peak_scaled_max": 9.476973994537922e-07,
+    "thermal_grid_peak_scaled_max": 2.0803375585074242e-05
+  },
+  {
+    "tau": 10,
+    "side": "up",
+    "window": "th075",
+    "stokes": "I",
+    "cold_vs_production_peak_scaled_max": 2.1374469751404116e-07,
+    "thermal_grid_peak_scaled_max": 4.467410526523193e-06
+  },
+  {
+    "tau": 10,
+    "side": "up",
+    "window": "th075",
+    "stokes": "Q",
+    "cold_vs_production_peak_scaled_max": 1.5680486042639274e-05,
+    "thermal_grid_peak_scaled_max": 0.00011783547159715035
+  },
+  {
+    "tau": 10,
+    "side": "down",
+    "window": "th015",
+    "stokes": "I",
+    "cold_vs_production_peak_scaled_max": 1.906862127203711e-06,
+    "thermal_grid_peak_scaled_max": 4.931570668347598e-06
+  },
+  {
+    "tau": 10,
+    "side": "down",
+    "window": "th015",
+    "stokes": "Q",
+    "cold_vs_production_peak_scaled_max": 2.6596504304253025e-06,
+    "thermal_grid_peak_scaled_max": 3.3559206508114708e-06
+  },
+  {
+    "tau": 10,
+    "side": "down",
+    "window": "th045",
+    "stokes": "I",
+    "cold_vs_production_peak_scaled_max": 1.7202532419889393e-06,
+    "thermal_grid_peak_scaled_max": 3.810642989526233e-06
+  },
+  {
+    "tau": 10,
+    "side": "down",
+    "window": "th045",
+    "stokes": "Q",
+    "cold_vs_production_peak_scaled_max": 2.3381799337345045e-06,
+    "thermal_grid_peak_scaled_max": 1.678321025866185e-05
+  },
+  {
+    "tau": 10,
+    "side": "down",
+    "window": "th075",
+    "stokes": "I",
+    "cold_vs_production_peak_scaled_max": 2.6874045994709023e-07,
+    "thermal_grid_peak_scaled_max": 3.942820964591541e-06
+  },
+  {
+    "tau": 10,
+    "side": "down",
+    "window": "th075",
+    "stokes": "Q",
+    "cold_vs_production_peak_scaled_max": 1.7873584107492988e-05,
+    "thermal_grid_peak_scaled_max": 0.00014142285321094123
+  }
+]

@@ -717,6 +717,14 @@
     "data/observations/README.txt": "1a81141b0fe2700d67b685cef393deeba90239daf9bcd92b8198b9650404f5b8",
     "data/observations/lightcurve.npz": "c936f79c1554a2cb616f94545516801be8597a97270d1edc0e07b449ed57783f",
     "data/observations/ixpe-event-manifest.json": "882b848a6d4f721b32e57dc2a35eaf6fbd6fed61f55bc0c3f7af9577e84d2022",
-    "data/observations/event_images.npz": "34c0847cb9ecc1cc9f22c2f98081c48c57f1ca76a4bd45eec2c0f623f9245d29"
+    "data/observations/event_images.npz": "34c0847cb9ecc1cc9f22c2f98081c48c57f1ca76a4bd45eec2c0f623f9245d29",
+    "data/thermal_angular/tau1.csv": "1b0c6137504583657ada0de12b122bc891c96df7896a1eaf2f9757bd75bbc71b",
+    "data/thermal_angular/convergence.json": "2e424e273951266be6652e19d766f267dcaf361bf702268b6113a54f98af4ba6",
+    "data/thermal_angular/independent_refinement.json": "0f8e1a50e4daf6e921abf31f99b060405095f4ed4c2c719471b6c13d401e2531",
+    "data/thermal_angular/tau1.json": "4f461bd3cec5d695d7640cd55eb39f54fc383cd04819b96323a0981dbef28392",
+    "data/thermal_angular/tau10.csv": "8a554d689c3442f3e39fb3fcd13fd4e7d544dff6603331506f2c256e1fbb182e",
+    "data/thermal_angular/REPORT.txt": "ca5c527f012e2ebeef27498b3223741590df0f5137b48f756590bc00cfd843f8",
+    "data/thermal_angular/manifest.json": "30136299966f71d778c7877e88121fbdf2c092b9e62d3b011e3a88a470f7906b",
+    "data/thermal_angular/tau10.json": "33613ddb6c855e01dd7040aa1435c1cefe657710292cd4651b8ecf3857cd9918"
   }
 }

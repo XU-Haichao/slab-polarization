@@ -1,0 +1,12 @@
+{
+  "description": "Thermal recoil-free angular diagnostic with the unchanged Jones energy kernel",
+  "files_sha256": {
+    "tau1.csv": "1b0c6137504583657ada0de12b122bc891c96df7896a1eaf2f9757bd75bbc71b",
+    "convergence.json": "2e424e273951266be6652e19d766f267dcaf361bf702268b6113a54f98af4ba6",
+    "independent_refinement.json": "0f8e1a50e4daf6e921abf31f99b060405095f4ed4c2c719471b6c13d401e2531",
+    "tau1.json": "4f461bd3cec5d695d7640cd55eb39f54fc383cd04819b96323a0981dbef28392",
+    "tau10.csv": "8a554d689c3442f3e39fb3fcd13fd4e7d544dff6603331506f2c256e1fbb182e",
+    "REPORT.txt": "ca5c527f012e2ebeef27498b3223741590df0f5137b48f756590bc00cfd843f8",
+    "tau10.json": "33613ddb6c855e01dd7040aa1435c1cefe657710292cd4651b8ecf3857cd9918"
+  }
+}

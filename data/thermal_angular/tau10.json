@@ -1,0 +1,14 @@
+{
+  "tau": 10.0,
+  "angular_kte": 20.0,
+  "cells": 4096,
+  "nang_total": 120,
+  "orders": 1393,
+  "kernel_closure_error": 2.398081733190338e-14,
+  "photon_closure": -4.769518113789672e-13,
+  "tail": 9.900014875116931e-16,
+  "min_source_I": 0.0,
+  "stokes_bound_violation": 0.0,
+  "seconds": 19.014986166963354,
+  "energy_probability_error": 3.352873534367973e-14
+}

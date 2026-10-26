@@ -1,0 +1,105 @@
+Thermally averaged angular Mueller matrix test (2026-10-26)
+==========================================================
+
+Scope
+-----
+kTe=20 keV, total Thomson tau=1 and 10, 5 eV blackbody photon-number
+seeds, unpolarized Lambert lower-boundary injection. Both surfaces and
+0-30, 30-60, 60-90 degree escape windows are integrated. Reference MCRT:
+400 million histories per case, existing public caches. No new MCRT or fit.
+Original/public notebooks and production model sources are unchanged.
+
+Controlled change
+-----------------
+The existing Jones energy transition is retained byte-for-byte. Only the
+angular/polarization operator is changed. Isotropic Maxwell-Juttner electrons
+are integrated with generalized Laguerre gamma quadrature and angular Gaussian/
+periodic quadrature. The electron-rest-frame Thomson Jones amplitude is boosted
+with gauge-corrected polarization four-vectors. The photon-number differential
+angular rate contains
+
+  (1 - beta.n_in) / [gamma^2 (1 - beta.n_out)^2]
+
+multiplying the rotated rest-frame Mueller matrix. This includes relative
+collision flux and the outgoing-solid-angle aberration Jacobian. We integrate
+the incident azimuth and retain all four axisymmetric I/Q matrix elements.
+Q is positive parallel to the slab surface, as in the manuscript.
+
+This is an energy-integrated, RECOIL-FREE thermal angular matrix. It is NOT
+the full energy-dependent thermal Klein-Nishina redistribution matrix.
+We still factor the scalar Jones energy kernel from angular/polarization
+transport, and retain Thomson opacity. Thus this test isolates thermal angular
+motion; energy-angle-polarization correlations and KN angular/opacity changes
+remain absent. It must not be described as exact thermal Compton transport.
+
+The two a,b functions no longer close the angular operator. We instead use
+discrete ordinates in signed mu, segmented at the escape-window boundaries.
+Cell-constant source propagation and cell-mean fields are integrated exactly
+against the attenuation exponential. No output amplitude is fitted or rescaled.
+
+Verification
+------------
+Displayed runs: tau1 ndepth=2048, tau10 ndepth=4096, 120 signed ordinates;
+thermal kernel 801 scattering-cosine samples, 32 gamma x 32 electron-cosine
+x 64 electron-azimuth nodes, 96 incident-azimuth nodes. Coarse runs independently
+use half the depth cells, 72 ordinates and 401/24/24/48/64 kernel settings.
+Cold limit is checked against the original two-component FFT recursion.
+Angular photon closure errors are below 1e-12 for these refined cases; no
+negative source I or violation of |Q|<=I was encountered.
+The largest coarse/fine change, normalized by the MCRT E^2 spectrum peak,
+is 5e-6 in I and 1.41e-4 in Q (six windows/surfaces, both tau cases).
+Cold implementation versus original production spectra differs by at most
+2e-6 (I) and 1.8e-5 (Q), using the same peak scaling.
+Additional depth-only/angular-only checks are stored as separate n8192/a28 runs.
+Doubling tau10 depth cells changes E^2 I/Q by 1.21e-6/1.63e-5 of their
+respective global model peaks; the independent angle check is recorded in
+independent_refinement.json.
+These are experiment-level checks, not global validation across temperatures.
+
+Comparison
+----------
+All models are integrated into the EXACT original MCRT energy bins before
+residuals are formed. No log-flux interpolation or amplitude matching.
+Use count>=50, positive finite SE, E^2 I_MCRT>1e-8 of its peak, and the stated
+energy interval. Q is signed; no Q significance threshold is imposed.
+chi2/N is a fixed-model diagnostic with diagonal MCRT errors, not a refitted
+reduced chi-square or a formal model-selection probability. Aggregate entries
+sum chi-square and N across the three non-overlapping angle windows.
+
+Full band: 0.005-100 keV; entries cold -> thermal angular + Jones
+tau  surface       I chi2/N             Q chi2/N
+1    up            2399.463 -> 2312.740  281.639 -> 4.083
+1    down          2056.444 -> 1959.333  174.855 -> 6.517
+10   up             291.726 -> 362.058   28.052 -> 5.005
+10   down           977.778 ->1009.500   71.014 -> 6.171
+
+Separate upscattered-band diagnostic: 0.1-40 keV (not substituted for full band)
+tau  surface       I chi2/N             Q chi2/N
+1    up              69.145 -> 50.368   181.153 -> 3.134
+1    down            32.609 -> 17.669   184.350 -> 2.542
+10   up             291.081 ->206.174    20.859 -> 2.363
+10   down           276.062 ->249.312    60.919 -> 2.772
+
+Interpretation
+--------------
+Q improves strongly, particularly tau=1 where the broad negative trough and
+positive seed-region feature approach MCRT/compPSc. The thermal angular
+correction explains a large part, not all, of the cold-matrix Q discrepancy.
+I is not uniformly improved: improvements in the 0.1-40 keV aggregate can
+coexist with deterioration at individual angles or in the full band at tau=10.
+The optically thick high-energy Q shape/sign discrepancy also remains.
+The remaining mismatch motivates a joint energy-angle-polarization kernel;
+these results do not establish which omitted effect alone causes it.
+
+Artifacts
+---------
+test_thermal_angular.py: independent angular operator, transport, invariants.
+compare.py: exact-bin comparison and plots.
+metrics.csv: each tau/surface/window/Stokes/band, cold/thermal/compPSc metrics.
+convergence.json: cold parity and combined-grid changes.
+tau1_up_IQ.png, tau1_down_IQ.png, tau10_up_IQ.png, tau10_down_IQ.png.
+The initial n512/a8/k401 files used linear interpolation and are pilot results;
+they are not used in plots or reported numerical metrics.
+
+Reference context: Poutanen & Svensson (1996), ApJ 470, 249 describes the full
+polarized iterative Compton transport, distinct from this factorized experiment.

@@ -47,9 +47,16 @@ operations are checked against the cached products and never alter the fit.
 - Parameter-scan diagnostics and low-/high-reflection Western-model fit exports
   for 4U 1624-49, with independent best-fit MCRT comparisons.
 
-The notebook contains 81 cells (37 executable) and 34 displayed figures.
+The notebook contains 89 cells (41 executable) and 38 displayed figures.
 Seventeen paper/appendix PDFs are exported to [figure/](figure/); supporting
 figures are displayed without additional exports.
+
+Section 17 adds a cached 20 keV thermal-angular redistribution diagnostic
+at tau = 1 and 10, with both surfaces and unchanged Jones energy redistribution.
+This recoil-free, factorized extension is not full thermal Klein–Nishina
+transport and does not replace the paper's stationary-electron model.
+The [supplementary execution report](thermal_angular_execution_report.json)
+records the four new cells; the preceding 81 cells remain unchanged.
 
 ## Numerical data
 
