@@ -2,7 +2,11 @@
   "status": "passed",
   "code_cells": 4,
   "figures": 4,
-  "elapsed_seconds": 3.4564659579773434,
+  "elapsed_seconds": 3.07495070801815,
   "previous_cells_unchanged": true,
-  "notebook_sha256": "69e33eddf0281ec7b44492b8c81372f68629d217b5cb7d9cb2a5938c8e5d5998"
+  "notebook_sha256": "94d68633711dd462da1088ee62f33bf76b93c97d61ff3e1c54d2ae5d6644e43c",
+  "tau10_plot_xlim_keV": [
+    0.004,
+    1000.0
+  ]
 }

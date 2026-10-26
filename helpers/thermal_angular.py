@@ -19,6 +19,7 @@ def plot_comparison(tau):
     """One I/Q figure per surface, all three escape windows; display only."""
     apply_mnras_style()
     baseline,_=load_case(20.,float(tau));thermal=load_thermal(tau)
+    xmax=1000. if tau==10 else 100.
     datasets=[(baseline[0][0],baseline[0][1],'--','C0',False),
               ('Thermal angular + Jones',thermal,'-','C3',False),
               ('compPSc',baseline[1][1],':','C2',False),
@@ -31,7 +32,7 @@ def plot_comparison(tau):
                 for label,d,style,color,is_mc in datasets:
                     m=(d['boundary']==side)&(d['theta_label']==window)
                     e=d['E_center_keV'][m];y=e**2*d[f'{st}_N_per_keV_sr'][m]
-                    visible=(e>=.004)&(e<=100)
+                    visible=(e>=.004)&(e<=xmax)
                     if is_mc:
                         use=visible&(d['count'][m]>=50)
                         err=e**2*d[f'{st}_N_se_per_keV_sr'][m]
@@ -41,7 +42,7 @@ def plot_comparison(tau):
                     else:
                         ax.plot(e,y,ls=style,color=color,lw=1.2,label=label)
                         bounds.extend(y[visible])
-                ax.set_xscale('log');ax.set_xlim(.004,100)
+                ax.set_xscale('log');ax.set_xlim(.004,xmax)
                 if st=='I':
                     ax.set_yscale('log');ax.set_ylim(max(bounds)*1e-7,max(bounds)*2)
                 else:
