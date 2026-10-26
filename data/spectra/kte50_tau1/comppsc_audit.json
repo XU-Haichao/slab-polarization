@@ -1,0 +1,22 @@
+{
+  "fingerprint": "3d53779751a4cc7364f15ab901aee23b66dbf0070b41288464293c2ce7d66af0:windows24:3bc53be80f51f613af769bb360803d7516fc303b533e5a913711d6861eae459d",
+  "kTe_keV": 50.0,
+  "tau": 1.0,
+  "seed_keV": 0.005,
+  "depth_points": 201,
+  "energy_points": 360,
+  "angle_points": 9,
+  "energy_quadrature": 8,
+  "angular_window_quadrature": 24,
+  "method": "positive log-energy hat product integration",
+  "elapsed_seconds": 547.1049202079885,
+  "escaped_photons": 0.99978399708314,
+  "last_order": 54,
+  "order_cap": 511,
+  "last_relative_source_increment": 8.529327890772835e-08,
+  "iteration_converged": true,
+  "sha256": "d5007ea06c86eee56ccfa4fa75c804f586082b3dc2f8de65fdd5afadf2a57caa",
+  "source_csv_sha256": "696eb86c21a2c07d00d6ab808c334bc731907a06cb92b0b60397cc72c2cdd421",
+  "frequency_mesh_converged": false,
+  "full_benchmark_certified": false
+}

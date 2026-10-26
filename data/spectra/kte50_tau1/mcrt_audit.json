@@ -1,0 +1,103 @@
+{
+  "kTe_keV": 50.0,
+  "tau": 1.0,
+  "theta": 0.09784755917795918,
+  "seed_temperature_eV": 5.0,
+  "seed_model": "blackbody",
+  "injection": "lambert",
+  "mode": "stokes",
+  "mec2_keV": 510.99895,
+  "angular_windows": [
+    [
+      "th015",
+      0,
+      30
+    ],
+    [
+      "th045",
+      30,
+      60
+    ],
+    [
+      "th075",
+      60,
+      90
+    ]
+  ],
+  "angular_partition": "[0,30), [30,60), [60,90] degrees",
+  "executable_sha256": "a52e82f00008cbb1236be6a76e903a3ad4ff13c4712e3f26962c55f94265a1cb",
+  "total_histories": 400000000,
+  "independent_batches": 40,
+  "max_scatters": 128,
+  "truncated_histories": 0,
+  "total_escaped_up": 217776810,
+  "total_escaped_down": 182223190,
+  "escaped_energy_underflow": 24336.0,
+  "escaped_energy_overflow": 0.0,
+  "escaped_energy_underflow_fraction": 6.084e-05,
+  "escaped_energy_overflow_fraction": 0.0,
+  "max_event_energy_error_mec2": 4.4409e-16,
+  "mean_scattering_number": 1.9994124999999996,
+  "pilot_cutoff_128_vs_256_identical": true,
+  "angular_bin_total_escape_budget_exact": true,
+  "angular_bins_match_surface_energy_histogram_to_csv_precision": true,
+  "opacity_audit": {
+    "theta": 0.09784755917795918,
+    "energy_min_mec2": 9.999999999999996e-11,
+    "energy_max_mec2": 40.00000000000005,
+    "max_coarse_fine_relative_change": 0.00013045773903872047,
+    "max_change_below_1MeV": 0.00010241619065522653,
+    "low_energy_ratio": 0.9999999997477884
+  },
+  "normalization": "Per injected photon per keV; *_sr additionally divided by 2pi Delta_mu. Not absolute source flux or surface specific intensity.",
+  "se_definition": "Sample standard deviation of 40 independent equal-size batch estimates / sqrt(40); zero-count bins have undefined SE.",
+  "stokes_convention": "project/manuscript Q = -raw MCRT Q",
+  "seed_reference": "5 eV blackbody photon-number PDF, times the Lambert angular PDF averaged over each window; unattenuated injection reference, not the unscattered escaping component.",
+  "angle_counts": [
+    {
+      "boundary": "down",
+      "window": "th015",
+      "all_count": 36671983.0,
+      "count_2_8keV_bin_centers": 84921.0,
+      "count_above_10keV": 16575.0
+    },
+    {
+      "boundary": "down",
+      "window": "th045",
+      "all_count": 86903475.0,
+      "count_2_8keV_bin_centers": 209090.0,
+      "count_above_10keV": 40825.0
+    },
+    {
+      "boundary": "down",
+      "window": "th075",
+      "all_count": 58637792.0,
+      "count_2_8keV_bin_centers": 130388.0,
+      "count_above_10keV": 26371.0
+    },
+    {
+      "boundary": "up",
+      "window": "th015",
+      "all_count": 63310477.0,
+      "count_2_8keV_bin_centers": 84783.0,
+      "count_above_10keV": 16360.0
+    },
+    {
+      "boundary": "up",
+      "window": "th045",
+      "all_count": 113083538.0,
+      "count_2_8keV_bin_centers": 207456.0,
+      "count_above_10keV": 41019.0
+    },
+    {
+      "boundary": "up",
+      "window": "th075",
+      "all_count": 41368399.0,
+      "count_2_8keV_bin_centers": 127900.0,
+      "count_above_10keV": 26472.0
+    }
+  ],
+  "sha256": "f49f93d3824327dac37df1d0387247779e9098101f1005c82bc6ecf1732c3e26",
+  "original_csv_sha256": "33416149225fd40504bcb04c6265efd7b8033a043ceb7b654338e01c214b9aeb",
+  "conversion": "Q and Pi multiplied by -1; standard errors unchanged"
+}

@@ -1,5 +1,5 @@
 POLARIZED THOMSON TRANSPORT IN A SLAB — PAPER COMPANION
-Release candidate updated 2026-10-25
+Release candidate updated 2026-10-26
 
 1. Purpose and quick start
 ==========================
@@ -79,8 +79,12 @@ Section 17     Supplementary thermal-angular + Jones test at 20 keV, tau=1/10;
                 This recoil-free, factorized diagnostic does not replace the
                 stationary-electron Thomson model. Four display-only figures.
 
-We retain 89 cells (41 executable) and 38 displayed figures: 17 saved
-paper/appendix figures and 21 display-only supporting figures. Use section
+Section 18     Extended-energy 20/50 keV I/Q/Pi comparisons at tau=1, both
+                surfaces, with independent MCRT and compPSc. The 50 keV raw
+                MCRT Q sign is converted once; sparse tails are masked.
+
+We retain 93 cells (43 executable) and 40 displayed figures: 17 saved
+paper/appendix figures and 23 display-only supporting figures. Use section
 headings rather than cell numbers as stable navigation targets. PDF filenames,
 rather than manuscript figure numbers, are the stable output identifiers.
 
@@ -91,7 +95,7 @@ data/thermal_angular/    Cached 20 keV thermal-angular diagnostic and grid audit
 data/avoided_crossings/  Full-matrix eigenpairs, gaps, overlaps and grid checks.
 data/order_validation/  Cold-electron order-resolved MCRT counts and statistics.
 data/mean_validation/   Independent mean-scattering validation cases.
-data/spectra/           Four-case MCRT/Jones/compPSc spectral comparisons.
+data/spectra/           Five-case MCRT/Jones/compPSc spectral comparisons.
 data/bestfit_validation/ Low-/high-reflection MCRT/Jones spectra and run audits.
 data/western/           Derived spectral-fit and model-component exports.
 data/observations/      Region images, ungrouped channels, GTIs and command records.
@@ -167,6 +171,8 @@ relocated-folder execution after path cleanup.
 The appended Section 17 passed a separate fresh-kernel run of all four new
 code cells and four figures; thermal_angular_execution_report.json records the
 updated notebook checksum. The preceding 81 cells were verified unchanged.
+Section 18 adds two independently executed cached plotting cells and two figures;
+hot_spectra_execution_report.json contains the current notebook checksum.
 
 public_manifest.json covers data files, not the entire distribution. The
 notebook hash is in execution_report.json. Hashes inside provenance records

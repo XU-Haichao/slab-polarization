@@ -725,6 +725,12 @@
     "data/thermal_angular/tau10.csv": "8a554d689c3442f3e39fb3fcd13fd4e7d544dff6603331506f2c256e1fbb182e",
     "data/thermal_angular/REPORT.txt": "ca5c527f012e2ebeef27498b3223741590df0f5137b48f756590bc00cfd843f8",
     "data/thermal_angular/manifest.json": "30136299966f71d778c7877e88121fbdf2c092b9e62d3b011e3a88a470f7906b",
-    "data/thermal_angular/tau10.json": "33613ddb6c855e01dd7040aa1435c1cefe657710292cd4651b8ecf3857cd9918"
+    "data/thermal_angular/tau10.json": "33613ddb6c855e01dd7040aa1435c1cefe657710292cd4651b8ecf3857cd9918",
+    "data/spectra/kte50_tau1/mcrt_audit.json": "7435c2db7257f7faef97952d0f429641bb46ed3694891cd629bab3c4d16e4884",
+    "data/spectra/kte50_tau1/jones.csv": "5e308d8615f834ecabebbdc54e8532df0505043284b7c507fa374d0d91505a7e",
+    "data/spectra/kte50_tau1/jones_audit.json": "d45232afcfd05b41b40aa6157a156e838c20588d094bb25e34af5799fbb5740b",
+    "data/spectra/kte50_tau1/mcrt_project_Q.csv": "f49f93d3824327dac37df1d0387247779e9098101f1005c82bc6ecf1732c3e26",
+    "data/spectra/kte50_tau1/comppsc_audit.json": "71ed08a6e78cf1f8bc603c9f70a48cf4ece656c9d310d077e51dae80c1b19767",
+    "data/spectra/kte50_tau1/comppsc.csv": "d5007ea06c86eee56ccfa4fa75c804f586082b3dc2f8de65fdd5afadf2a57caa"
   }
 }

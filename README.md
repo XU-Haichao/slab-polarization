@@ -47,7 +47,7 @@ operations are checked against the cached products and never alter the fit.
 - Parameter-scan diagnostics and low-/high-reflection Western-model fit exports
   for 4U 1624-49, with independent best-fit MCRT comparisons.
 
-The notebook contains 89 cells (41 executable) and 38 displayed figures.
+The notebook contains 93 cells (43 executable) and 40 displayed figures.
 Seventeen paper/appendix PDFs are exported to [figure/](figure/); supporting
 figures are displayed without additional exports.
 
@@ -57,6 +57,12 @@ This recoil-free, factorized extension is not full thermal Klein–Nishina
 transport and does not replace the paper's stationary-electron model.
 The [supplementary execution report](thermal_angular_execution_report.json)
 records the four new cells; the preceding 81 cells remain unchanged.
+
+Section 18 displays the 20/50 keV, tau=1 I/Q/polarization benchmarks over
+0.004–1000 keV, retaining both the high-order plateau and deviations from it.
+Both surfaces include independent MCRT errors; weak tails are not extrapolated.
+The [latest supplementary run report](hot_spectra_execution_report.json)
+records these two cached plotting cells and the current notebook checksum.
 
 ## Numerical data
 
